@@ -10,5 +10,5 @@ def test_health():
 
 def test_version():
     response = app.test_client().get("/version")
-    assert response.get_json() == {"version": "9.9.9"}
+    assert response.get_json() == {"version": "1.0.0"}
 
